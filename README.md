@@ -3,7 +3,7 @@
 ## О проекте
 Проект посвящен подготовке датасета видеоигр к аналитике: очистке данных, приведению типов, обработке пропусков и дубликатов, а также формированию рабочего среза за период 2000-2013 годов.
 
-Основной файл проекта: `notebooks/game_data_prep.ipynb`.
+Основной файл проекта: `notebooks/games_data_preprocessing.ipynb`.
 
 ## Данные
 Источник данных: `datasets/new_games.csv`.
@@ -45,7 +45,7 @@
 - Топ-7 платформ по числу релизов: **PS2, DS, Wii, PSP, X360, PS3, GBA**.
 
 ## Структура репозитория
-- `notebooks/game_data_prep.ipynb` - предобработка данных.
+- `notebooks/games_data_preprocessing.ipynb` - предобработка данных.
 - `datasets/new_games.csv` - исходный датасет.
 
 ## Технологии
@@ -68,4 +68,4 @@ pip install -r requirements-dev.txt
 ```bash
 jupyter notebook
 ```
-4. Открыть `notebooks/game_data_prep.ipynb` и выполнить ячейки сверху вниз.
+4. Открыть `notebooks/games_data_preprocessing.ipynb` и выполнить ячейки сверху вниз.
